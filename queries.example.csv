@@ -1,0 +1,11 @@
+# Google Maps Scraper - CSV Query Format
+# 
+# Column 'query' is required. Additional columns are optional.
+# The scraper will use only the 'query' column.
+
+query
+restaurants in Tokyo, Japan
+coffee shops in Brooklyn, NYC
+hotels near Eiffel Tower, Paris
+best pizza in Naples, Italy
+pharmacies open now in Madrid

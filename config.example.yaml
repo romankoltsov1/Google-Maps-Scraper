@@ -1,0 +1,37 @@
+# Google Maps Scraper - Configuration File
+# 
+# This is an example configuration file.
+# Supported formats: YAML (.yaml, .yml) or JSON (.json)
+
+# List of search queries to process
+queries:
+  - coffee shops in New York
+  - restaurants in London
+  - hotels in Paris
+  - gyms in Berlin
+
+# Proxy file path (optional)
+# Path to a file containing proxy list
+# Supports: SOAX, BrightData, Oxylabs, Smartproxy, and standard proxies
+proxies: proxies.txt
+
+# Output directory (optional, default: ./output)
+output_dir: ./output
+
+# Concurrency level (optional, default: 5)
+# Number of concurrent browser instances
+# Lower = more stable, Higher = faster but more memory
+concurrency: 5
+
+# Timeout in seconds (optional, default: 60)
+# Page load timeout
+timeout: 60
+
+# Scroll settings for pagination (optional)
+# Number of scrolls to load more results (default: 10)
+# 0 = no scrolling (only first 8-10 results)
+scroll_limit: 15
+
+# Seconds to wait between scrolls (default: 2.0)
+# Lower = faster but may miss results
+scroll_pause: 2.0

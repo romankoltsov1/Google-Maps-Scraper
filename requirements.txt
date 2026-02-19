@@ -1,0 +1,5 @@
+# Required
+playwright>=1.40.0
+
+# Optional: For YAML config file support
+# pyyaml>=6.0

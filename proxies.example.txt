@@ -1,0 +1,52 @@
+# Google Maps Scraper - Proxy Configuration Examples
+# 
+# This scraper supports various proxy formats and providers.
+# Empty lines and lines starting with # are ignored.
+
+# ============================================
+# SOAX Proxies (Recommended - Built-in Support)
+# ============================================
+# SOAX sticky session format with automatic session rotation:
+
+proxy.soax.com:5000 package-12345-country-us-sessionid-abc123-sessionlength-90:YOUR_SOAX_PASSWORD
+proxy.soax.com:5000 package-12345-country-uk-sessionid-def456-sessionlength-180:YOUR_SOAX_PASSWORD
+proxy.soax.com:5000 package-12345-country-de-sessionid-ghi789-sessionlength-360:YOUR_SOAX_PASSWORD
+
+# ============================================
+# BrightData (Luminati)
+# ============================================
+# http://user-session-12345:password@brd.superproxy.io:22225
+# http://lum-customer-CUSTOMER-zone-zone1:PASSWORD@brd.superproxy.io:22225
+
+# ============================================
+# Oxylabs
+# ============================================
+# http://user:password@pr.oxylabs.io:7777
+# http://user-cc-US:password@pr.oxylabs.io:7777
+
+# ============================================
+# Smartproxy
+# ============================================
+# http://user:password@gate.smartproxy.com:7000
+# http://user:password@us.smartproxy.com:10000
+
+# ============================================
+# Webshare
+# ============================================
+# http://user:password@proxy.webshare.io:80
+
+# ============================================
+# Standard Proxy Formats (Any Provider)
+# ============================================
+# Format 1: host:port username:password
+# proxy.example.com:8080 user:pass
+
+# Format 2: username:password@host:port  
+# user:pass@proxy.example.com:8080
+
+# Format 3: Full URL
+# http://user:pass@proxy.example.com:8080
+# https://user:pass@proxy.example.com:8080
+
+# Format 4: HTTP URL with auth
+# http://username:password@proxy.example.com:8080
