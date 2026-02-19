@@ -15,7 +15,7 @@ Google Maps scraper built with Playwright for reliable JavaScript-rendered extra
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/google-maps-scraper.git
+git clone https://github.com/romankoltsov1/Google-Maps-Scraper.git
 cd google-maps-scraper
 
 # Install Python dependencies
