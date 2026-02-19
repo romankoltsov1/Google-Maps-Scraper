@@ -223,24 +223,6 @@ python3 scraper.py --csv batch1.csv --proxies proxies1.txt --scroll-limit 10
 python3 scraper.py --csv batch2.csv --proxies proxies2.txt --scroll-limit 10
 ```
 
-## Limitations
-
-From **search results page**, we can extract:
-- ✅ Business name
-- ✅ Rating (stars)
-- ✅ Thumbnail image
-- ✅ Maps URL
-
-Cannot extract from search results (requires visiting detail page):
-- ❌ Full address
-- ❌ Phone number
-- ❌ Opening hours
-- ❌ Website (rarely shown in list view)
-- ❌ Reviews/text content
-- ❌ Price range ($, $$, $$$)
-
-**Workaround:** Use the `maps_url` field to visit individual place pages.
-
 ## Troubleshooting
 
 ### No results found
